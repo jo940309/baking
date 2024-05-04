@@ -1,0 +1,446 @@
+
+/*置中    display:block;  margin: auto;*/
+
+header{
+    z-index: 1;
+    height: 100px;
+    background-color: #fdf7ec;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: #e1c7c5 solid 2px;
+}
+.body1{
+    background-color: #fdf7ec;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-family: 微軟正黑體;
+}
+a{
+    text-decoration: none;
+}
+
+/*首頁*/
+.cover{
+    width: 1200px;
+
+    position: relative;
+    top: 94px;
+    left: 600px;
+}
+.word{
+    font-family: serif;
+    text-align: center;
+    font-size: 30px;
+    width: min-content;
+    background-color: #fdf7ecd6;
+    color: #845b59;
+    letter-spacing: 25px;
+
+    position: relative;
+    top: -525px;
+    left: 1030px;
+}
+.首1{
+    border-radius: 10%;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+
+    position: relative;
+    top: 570px;
+    left: -600px;
+}
+.首2{
+    text-align: center;
+    border-radius: 10%;
+    width: 600px;
+    height: 400px;
+
+    position: absolute;
+    top: 1150px;
+    right: 50%;
+}
+.首3{
+    text-align: center;
+    border-radius: 10%;
+    width: 600px;
+    height: 400px;
+
+    position: absolute;
+    top: 1150px;
+    left: 50%;
+}
+h4{
+    opacity: 100%;
+    border-bottom: #845b59 solid 3px;
+    padding-bottom: 15px;
+    width: 200px;
+    color: #845b59;
+    font-size: 20px;
+    
+    position: relative;
+    left: 100px;
+}
+h4:hover{
+    transition-duration: 0.5s;
+    opacity: 70%;
+}
+h5{
+    border-bottom: #845b59 solid 3px;
+    padding-bottom: 15px;
+    width: 200px;
+    color: #845b59;
+    font-size: 20px;
+    
+    position: relative;
+    left: 190px;
+}
+h5:hover{
+    transition-duration: 0.5s;
+    opacity: 70%;
+}
+.首圖{
+    border-radius: 10%;
+    width: 350px;
+
+    position: relative;
+}
+.首圖2{
+    opacity: 0;
+    border-radius: 10%;
+    width: 350px;
+
+    position: relative;
+    top: -237px;
+}
+.首圖2:hover{
+    transition-duration:1s;
+    opacity:1;
+}
+
+
+
+/*各類大標*/
+.article1{
+    text-align: center;
+    height: 600px;
+    width: 640px;
+
+    position: relative;
+    right: 55%;
+    top: 180px;
+    /*border: solid rgb(232, 220, 224);
+    border-radius: 50px;*/
+}
+.aside1{
+    text-align:center;
+    height: 600px;
+    width: 640px;
+
+    position: relative;
+    left: 55%;
+    top: -425px;
+    /*border: solid rgb(232, 220, 224);
+    border-radius: 50px;*/
+}
+.article2{
+    text-align:center;
+    height: 600px;
+    width: 640px;
+
+    position: absolute;
+    right: 51%;
+    top: 800px;
+    /*border: solid rgb(232, 220, 224);
+    border-radius: 50px;*/
+}
+.aside2{
+    text-align:center;
+    height: 600px;
+    width: 640px;
+
+    position: absolute;
+    left: 51%;
+    top: 800px;
+    /*border: solid rgb(232, 220, 224);
+    border-radius: 50px;*/
+}
+.main1{
+    text-align: center;
+    height: 600px;
+    width: 640px;
+
+    position: absolute;
+    top: 1420px;
+}
+.圖{
+    height: 400px;
+    position: relative;
+    top: 20px;
+}
+.圖2{
+    height: 400px;
+    position: relative;
+    top: -384px;
+    opacity: 0;
+}
+.圖2:hover{
+    transition-duration: 0.5s;
+    opacity: 1;
+}
+.字{
+    height: 35px;
+    position: relative;
+    top: -340px;
+}
+.字:hover{
+    border-bottom: solid 4px rgb(210, 191, 197);
+    padding-bottom: 10px;
+    transition-duration: 0.5s;
+    opacity: 1;
+}
+.小字{
+    height: 50px;
+    position: relative;
+    top: -340px;
+}
+.字2{     /*第一行跟第二行差10下向下鍵*/
+    height: 75px;
+    position: relative;
+    top: -350px;
+}
+.字2:hover{
+    border-bottom: solid 4px rgb(210, 191, 197);
+    padding-bottom: 10px;
+    transition-duration: 0.5s;
+    opacity: 1;
+}
+.小字2{
+    height: 50px;
+    position: relative;
+    top: -350px;
+}
+
+
+
+/*食譜*/
+.底部框框{
+    /*background-color: rgb(255, 255, 255);*/
+    width: 1230px;
+    height: max-content;
+    position: relative;
+    top: 93px;
+    /*border-bottom: 1px solid #845b59;
+    padding-bottom: 1.3px;*/
+}
+.article01{
+    float: left;
+    width: 525px;
+    height: max-content;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    /*right: 30px;
+    top: 83px;*/
+}
+.aside01{
+    /*background-color: #fdf7ec;*/
+    float: right;
+    width: 550px;
+    height: max-content;
+    position: relative;
+    right: 50px;
+    top: 50px;
+    color: #845b59;
+    font-size: 15px;
+    /*left: 50px;
+    top: 83px;*/
+}
+.食譜圖1{
+    width: 100%;
+    margin-top: 10px;
+}
+.材料ul{
+    list-style-type: disc;
+}
+.標題{
+    height: 35px;
+}
+.標題2{
+    height: 75px;
+}
+.小標{
+    height: 50px;
+    position: relative;
+    left: -10px;
+    top: 10px;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    display : inline;
+    font-size: 23px;
+    font-weight: bolder;
+}
+h3{
+    display : inline;
+    font-size: 15px;
+    font-weight: bold;
+}
+ol{
+    line-height: 35px;
+}
+.字底線{
+    /*text-decoration: underline;*/
+    border-bottom: 1px solid;
+    padding-bottom: 1.3px;
+}
+.g{
+    font-size: 17px;
+    font-weight: bold;
+}
+.底線{
+    border-bottom: #e1c7c5 solid 1px;
+}
+.注意事項{
+    background-color: #ffffff;
+    border: #ffffff solid 20px;
+}
+.實作框框{
+    text-align: center;
+    width: 550px;
+    height: max-content;
+    position: relative;
+}
+.實作圖{
+    width: 100%;
+    margin-top: 10px;
+}
+#js{
+    display: none;
+}
+
+
+/*最上面橫標*/
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    left: 280px;
+    top: 25px;
+}
+.menu{
+    font-family: 微軟正黑體;
+    font-size: 17px;
+    font-weight: 600;
+}
+.menu > li{              /* 子選擇器 只有第一層 */ 
+    float: left;
+}
+.menu li{
+    position: relative;
+    padding: 0px;
+    /*border: rgb(232, 220, 224) 1px dashed;*/
+    min-width: 120px;
+    background-color: #ffffff;
+}
+.menu ul{
+    position: absolute;
+    z-index: 10;
+    top: 102%;
+    left: 10%;
+    display: none;
+    min-width: 180px;
+}
+.menu ul li > ul{     /* 定義上一層ul li 和下一層ul的距離，第三層以後 */
+    z-index: 20;
+    top: 20%;
+    left: 100%;
+}
+.menu a{
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    /*background-color: #fffdfa;*/
+    background-size: cover;
+    color: #845b59;
+}
+.menu a:hover{
+    /*background-color: rgb(198, 181, 170);*/
+    background-size: cover;
+    color: #be7e7c;
+    text-decoration: underline 2px;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.li1{
+    background-color: #fdf7ec;
+    height: 42px;
+}
+.photo1{
+    height: 80px;
+    position: relative;
+    right: 100%;
+}
+
+#置中{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+/*知識庫-品牌*/ 
+.標題00 {color: orange;position:absolute;left:250px;top:590px;} 
+.標題01{color: orange;position:absolute;left:270px;top:850px;} 
+.div{width: 1200px;;height: 500px;}
+.kid{position:absolute;width:700px;;height:400px;left:80px;top:150px;}
+.div1{width: 1200px;;height:500px;}
+.word1{position:absolute;left:250px;top:650px;color: #845b59;font-size:20px;}
+.word2{position:absolute;left:250px;top:930px;color: #845b59;font-size:20px;}
+.word3{position:absolute;left:250px;top:1100px;color: #845b59;font-size:20px;}
+.word4{position:absolute;left:250px;top:1300px;color: #845b59;font-size:20px;}
+.word5{position:absolute;left:250px;top:1500px;color: #845b59;font-size:20px;}
+.logo1{position:absolute;width:180px;;height:180px;left:20px;top:600px;}
+.logo2{position:absolute;width:200px;;height:150px;left:20px;top:900px;}
+.logo3{position:absolute;width:200px;;height:120px;left:20px;top:1100px;}
+.logo4{position:absolute;width:200px;;height:120px;left:20px;top:1300px;}
+.logo5{position:absolute;width:200px;;height:120px;left:20px;top:1500px;}
+/*知識庫-工具*/
+.標題0{display : inline;
+    font-size: 25px;
+    font-weight: bold;;color:rgb(119, 101, 68);position:absolute;left:800px;top:200px;} 
+.標題3{color:orange;position:absolute;left:180px;top:1700px;} 
+.打蛋器{color: rgb(114, 99, 72);position:absolute;left:20px;top:1740px;} 
+.打蛋器圖片{position:absolute;left:600px;top:1740px;}
+
+.標題4{color:orange;position:absolute;left:180px;top:1900px;} 
+.矽膠刮刀{color: rgb(114, 99, 72);position:absolute;left:20px;top:1940px;} 
+.矽膠刮刀圖片{position:absolute;left:630px;top:1940px;}  
+
+.標題5{color:orange;position:absolute;left:180px;top:2100px;} 
+.量匙{color: rgb(114, 99, 72);position:absolute;left:20px;top:2130px;} 
+.量匙圖片{position:absolute;left:520px;top:2130px;}
+
+.標題6{color:orange;position:absolute;left:180px;top:2300px;} 
+.量杯{color: rgb(114, 99, 72);position:absolute;left:20px;top:2350px;} 
+.量杯圖片{position:absolute;left:500px;top:2350px;}
+
+.標題7{color:orange;position:absolute;left:120px;top:2550px;} 
+.攪拌盆{color: rgb(114, 99, 72);position:absolute;left:20px;top:2580px;} 
+.攪拌盆圖片{position:absolute;width: 260px;height:200px ;left:500px;top:2550px;}
+
+.標題8{color:orange;position:absolute;left:130px;top:2750px;} 
+.電子秤{color: rgb(114, 99, 72);position:absolute;left:20px;top:2780px;} 
+.電子秤圖片{position:absolute;left:550px;top:2780px;}
+
+.標題9{color:orange;position:absolute;left:100px;top:2980px;} 
+.電動打蛋器{color: rgb(114, 99, 72);position:absolute;left:20px;top:3010px;} 
+.電動打蛋器圖片{position:absolute;left:500px;top:3000px;width: 260px;height:200px}
